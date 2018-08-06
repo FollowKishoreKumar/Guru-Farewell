@@ -15,10 +15,7 @@ export class AppComponent implements OnInit {
   constructor(private modalService: BsModalService) { }
 
   ngOnInit() {
-    this.messages = [{
-      "name": "Manimegalai",
-      "message": "Good mentor..      You know how to get the work done..      Talented personality..      Encouraging..      Good to work with you..      Talkative..      All the best for your future..      Take care..       You will be missed Guru..      Byeeeeeee..🙂"
-    },
+    this.messages = [
     {
       "name": "Jagan",
       "message": "வாழ்க,வளமுடன்"
@@ -58,6 +55,26 @@ export class AppComponent implements OnInit {
     {
       "name": "Amutha",
       "message": "All the very best Guru 🙂 "
+    },
+    {
+      "name": "Manimegalai",
+      "message": "Good mentor..      You know how to get the work done..      Talented personality..      Encouraging..      Good to work with you..      Talkative..      All the best for your future..      Take care..       You will be missed Guru..      Byeeeeeee..🙂"
+    },
+    {
+      "name": "Jerish",
+      "message": "All the best Guru , Farewell 🙂 "
+    },
+    {
+      "name": "Vishal",
+      "message": "Thanks for all the lessons that you teach me. I didn’t worked closely with you but like the way you manage the team and I learnt from that. For me you are one of the best team leader. Have a great and fantastic years ahead.Stay in touch...!!🙂 "
+    },
+    {
+      "name": "Bala",
+      "message": "Dedicated and helping person . Good luck for your career"
+    },
+    {
+      "name": "Chandra",
+      "message": "I wish you all the best in your life. Heartfelt goodbye from all of your coworkers."
     },
     ]
   }
